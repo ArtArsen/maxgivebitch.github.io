@@ -1,0 +1,107 @@
+    <!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Document</title>
+        <style>
+            .header {
+                display: flex;
+                align-items: center; 
+                justify-content: space-between; 
+                padding: 10px 20px;
+                background-color: #0a0a0a;
+            }
+
+            .header h1 {
+                margin: 0;
+                color: rgb(255, 255, 255);
+            }
+
+            .header h2 {
+                margin: 0;
+                color: rgb(255, 255, 255);
+            }
+
+            .header a {
+                padding: 12px;
+                text-align: center;
+                color: aliceblue;
+                text-decoration: none;
+            }
+
+            .products-container {
+                display: flex; 
+                justify-content: space-around; 
+                gap: 20px; 
+                padding: 20px;
+            }
+
+            .product {
+                border: 1px solid #ccc;
+                padding: 10px;
+                width: 300px; 
+                box-sizing: border-box;
+                text-align: left;
+            }
+
+            .product img {
+                max-width: 100%;
+                height: auto;
+            }
+footer.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Zatland</h1>
+            <div class="header-right">
+                <a href="index.html">Главная</a>
+                <a href="about.html">О нас</a>
+                <a href="#contacts">Контакты</a>
+            </div>
+        </div>
+
+        <h2>Наши товары</h2>
+
+        <div class="products-container">
+            <div class="product">
+                <h3>Titan MK8</h3>
+                <img src="images/images (2).jpg" alt="Titan MK8">
+                <p>2 гига 2 ядра игровая видеокарта</p>
+                <a href="about.html">Подробнее</a>
+            </div>
+            <div class="product">
+                <h3>Revo Nova</h3>
+                <img src="images/images (1).jpg" alt="Revo Nova">
+                <p><strong>16-ти ядерный процессор, видеокарта Nova FX 4008</strong></p>
+                <a href="about.html">Подробнее</a>
+            </div>
+            <div class="product">
+                <h3>TF140</h3>
+                <img src="images/images.jpg" alt="Titan MK8">
+                <p><em>Монстр в мире пк, зеончик, RX580</em></p>
+                <a href="about.html">Подробнее</a>
+            </div>
+        </div>
+
+        <div class="Contacts">
+            <h2 id="contacts">Наши контакты</h2>
+            <p>Адрес: Дмитровское Шоссе 110А</p>
+            <p>Телефон: +7 995 772 43 56</p>
+        </div>
+
+            <footer class="header">
+            <h2>© Zatland, 2025</h2>
+            <div class="header-right">
+                <a href="index.html">Telegram</a>
+                <a href="about.html">WhatsApp</a>
+                <a href="#contacts">MAX</a>
+            </footer>
+        </div>
+    </body>
+    </html>
